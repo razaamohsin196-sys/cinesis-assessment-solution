@@ -5,6 +5,7 @@ It extracts the driver profile from the transcript manually based on explicit an
 statements, then filters and ranks loads by effective rate per mile using haversine distance.
 """
 
+import utils.session
 from math import radians, sin, cos, asin, sqrt
 
 R_MILES = 3958.8
